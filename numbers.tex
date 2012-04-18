@@ -1,0 +1,29 @@
+
+\documentclass{minimal}
+
+% Arbitrary font sizes for Computer Modern
+\usepackage{fix-cm}
+
+% Command for creating a number with minutes
+\newcommand{\minutes}[1]{%
+\fontsize{20cm}{0cm}
+\centering
+\bfseries
+#1
+\newline
+\fontsize{5cm}{5cm}
+\centering
+\bfseries
+min
+}
+
+\begin{document}
+
+\minutes{5}
+\newpage
+\minutes{2}
+\newpage
+\minutes{1}
+
+\end{document}
+
